@@ -63,4 +63,8 @@ class Song
     song.name = name.strip.chomp(".mp3")
     song
   end
+
+  def self.create_from_filename(filename)
+
+  end
 end
