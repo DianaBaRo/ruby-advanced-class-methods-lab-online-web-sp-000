@@ -60,7 +60,7 @@ class Song
 
     song = self.new
     song.artist_name = artist_name.strip
-    song.name = name.strip.slice! ".mp3"
+    song.name = name.strip.slice ".mp3"
     song
   end
 end
