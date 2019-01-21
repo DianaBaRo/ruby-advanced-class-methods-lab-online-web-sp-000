@@ -59,8 +59,8 @@ class Song
     name = data[1]
 
     song = self.new
-    song.artist_name = artist_name
-    song.name = name
+    song.artist_name = artist_name.strip
+    song.name = name.strip
     song
   end
 end
